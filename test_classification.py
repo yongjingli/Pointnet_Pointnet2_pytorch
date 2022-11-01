@@ -110,6 +110,9 @@ def main(args):
         log_string('Test Instance Accuracy: %f, Class Accuracy: %f' % (instance_acc, class_acc))
 
 
+
 if __name__ == '__main__':
     args = parse_args()
     main(args)
+
+
